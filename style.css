@@ -7,28 +7,37 @@ body {
 }
 
 header {
+    font-size: 20px;
     background-color: #f1f1f1;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    font-size: 35px;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     color: black;
-    font-size: 2.5em;
-    /* padding-top: 50px; */
+    font-size: 48px;
     width: 100%;
+    font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 h3 {
     color: black;
-    font-size: 1em;
-    /* padding-top: 50px; */
+    font-size: 20px;
     width: 100%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -39,7 +48,6 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 100%;
     max-width: 1000px;
     padding: 0 20px;
 }
@@ -48,11 +56,13 @@ footer {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
-    width: 250px
+    /* width: 250px; */
+    height: 225px;
+    padding: 10px;
 }
