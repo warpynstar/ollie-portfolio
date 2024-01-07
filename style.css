@@ -55,14 +55,12 @@ h4 {
 .category {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
+    align-items: left;
     margin: 0 auto;
     max-width: 1000px;
     padding: 0 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-
 }
 
 .highlights {
