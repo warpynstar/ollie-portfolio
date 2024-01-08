@@ -56,7 +56,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     align-items: left;
-    margin: 0 auto;
     max-width: 1000px;
     padding: 0 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -70,6 +69,28 @@ h4 {
     align-items: center;
     margin: 0 auto;
     max-width: 1000px;
+    padding: 0 20px;
+}
+
+.highlights img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.content img {
+    /* width: 250px; */
+    height: 250px;
+    padding: 10px;
+}
+
+#more_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    margin: 0 auto;
+    max-width: 800px;
     padding: 0 20px;
 }
 
@@ -92,20 +113,7 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-img {
-    /* width: 250px; */
-    height: 225px;
-    padding: 10px;
+.content img {
+    width: 50%;
+    height: 50%;
 }
-
-/* .socials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-} */
