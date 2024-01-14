@@ -117,7 +117,7 @@ footer {
     height: 50%;
 }
 
-#large_image.content img {
+.large_image img {
     width: 100%;
     height: 200%;
 }
