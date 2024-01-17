@@ -122,7 +122,21 @@ footer {
     height: 200%;
 }
 
-.portfolio img {
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
     width: 25%;
     height: 25%;
+}
+
+.portfolio img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    /* padding: 10px; */
 }
